@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AppV0</string>
+    <string name="title">Register Form</string>
+    <string name="user">User</string>
+    <string name="user_h">Enter User</string>
+    <string name="pass">Password</string>
+    <string name="pass_h">Enter Password</string>
+    <string name="pass2_h">Confirm Password</string>
+    <string name="sex">Select Sex</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="born">Born City</string>
+    <string name="date">Born Date</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="movies">Movies</string>
+    <string name="sport">Sport</string>
+    <string name="read">Read</string>
+    <string name="dance">Dance</string>
+    <string name="register">Register</string>
+    <string name="show">Empty info</string>
+    <string name="email">Email</string>
+    <string name="email_h">Enter email</string>
+    <string name="set_da">Set</string>
+    <string name="log_in">Log in</string>
+    <string name="sPerfi">Perfil</string>
+    <string name="sClose">Close</string>
+
+    <string name="facebook_app_id">927545740717328</string>
+    <string name="fb_login_protocol_scheme">fb927545740717328</string>
+
+
+    <string-array name="cities">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_vistas">vistasActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

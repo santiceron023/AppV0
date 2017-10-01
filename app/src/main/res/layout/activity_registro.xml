@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.udea.santiagoceron.appv0.activity_registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="@string/email"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/eEmail"
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:hint="@string/email_h"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/red"
+                android:textColorHint="@color/limegreen"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="@string/pass"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/ePass"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:hint="@string/pass_h"
+                android:inputType="textPassword"
+                android:textColor="@color/red"
+                android:textColorHint="@color/limegreen"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1.3"
+                android:gravity="center"
+                android:text="@string/pass"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/ePass2"
+                android:layout_width="0sp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="@string/pass2_h"
+                android:inputType="textWebPassword"
+                android:textColor="@color/red"
+                android:textColorHint="@color/limegreen"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <Button
+            android:onClick="bRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/darkorange"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>
+
